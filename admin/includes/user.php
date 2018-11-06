@@ -64,12 +64,10 @@ public static function instantation($the_record){
    			$the_object->$the_attribute = $value;
 
    		}
-
-
    }
 
     return $the_object;                 
-                   
+
 }
 
 private function has_the_attribute($the_attribute){
