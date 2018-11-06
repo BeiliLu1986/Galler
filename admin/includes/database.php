@@ -47,7 +47,7 @@ class Database {
 
 	}
 
-
+	// Clean up the data before go to the database
 	public function escape_string($string){
 
 		//$escape_string = mysqli_real_escape_string($this->connection,$string);
